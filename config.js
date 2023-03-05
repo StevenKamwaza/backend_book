@@ -1,11 +1,11 @@
 const config = {
     db: {
-      /* don't expose password or any sensitive info, done only for demo */
+   
       host: "localhost",
       user: "root",
       password: "",
-      database: "yodep",
+      database: "book-post",
     },
-    listPerPage: 10,
+    listPerPage: 8,
   };
   module.exports = config;
